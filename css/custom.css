@@ -56,20 +56,23 @@ a:hover {
 }
 /* PRESS START */
 
-
+.send-button{
+    background-color: #5bb45b !important;
+    border: none;
+}
 
 .navbar-white {
-    background-color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.356) !important;
     transition: background 0.5s ease-out;
 
 }
 
 .navbar-white li a {
-    color: #16a085 !important;
+    color: #5cb85c !important;
 }
 
 .navbar-white .navbar-brand {
-    color: #16a085 !important;
+    color: #5cb85c !important;
 }
 
 .navbar-white button.navbar-toggle {
@@ -103,7 +106,7 @@ box-shadow: none;
 
 .navbar {
     margin-bottom: 0px;
-    padding: 10px 5px;
+    padding: 30px 45px;
     min-height: 0;
     
 }
@@ -187,7 +190,7 @@ iframe
     background-color: rgba(0,0,0,0.19);
 }
 .navbar-default .navbar-nav>li>a {
-    font-size: 16px;
+    font-size: 17px;
     transition: all 0.5s cubic-bezier(.17,.67,.83,.67);
     color: #E5E5E5;
     margin: 5px 20px;
@@ -704,6 +707,16 @@ a
 /* ---------------------------------------------------------------------------------------------------
                             contact
  ---------------------------------------------------------------------------------------------------*/
+
+ .contact-input{
+     background: transparent;
+ }
+
+ .contact-input::placeholder{
+    color: #5bb45b;
+}
+
+
  .input-group
  {
     padding: 18px 0px;
@@ -762,7 +775,7 @@ a
 }
 .facebook
 {
-    background-color: #3acab1;
+    background-color: #5bb45b ;
 }
 .facebook:hover
 {
@@ -770,7 +783,7 @@ a
 }
 .twitter
 {
-    background-color: #3acab1;
+    background-color: #5bb45b ;
 }
 .twitter:hover
 {
@@ -778,7 +791,7 @@ a
 }
 .google-plus
 {
-    background-color: #3acab1;
+    background-color: #5bb45b ;
 }
 .google-plus:hover
 {
@@ -786,7 +799,7 @@ a
 }
 .instagram
 {
-    background-color: #3acab1;
+    background-color: #5bb45b ;
 }
 .instagram:hover
 {
@@ -794,7 +807,7 @@ a
 }
 .pinterest
 {
-    background-color: #3acab1;
+    background-color: #5bb45b ;
 }
 .pinterest:hover
 {
@@ -802,7 +815,7 @@ a
 }
 .skype
 {
-    background-color: #3acab1;
+    background-color: #5bb45b ;
 }
 .skype:hover
 {
@@ -817,7 +830,7 @@ form
 -----------------------------------------------------------------------------------------------------*/
 .main-footer
 {
-    background-color: #16a085;
+    background-color: #5bb45bbe ;
     padding: 20px 0px;
 }
 .logo h1
@@ -900,6 +913,11 @@ form
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #FFFFFF;
+}
+.btn-pagination{
+    background-color: #5cb85cd7;
+    color: white;
+    border: none;
 }
 
 .btn-primary {
@@ -1087,8 +1105,8 @@ form
         box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2) !important;
         z-index: 2 !important;
         color: #fff !important;
-        background: #1abc9c !important;
-        border-color: #1abc9c !important;
+        background: #5bb45b  !important;
+        border-color: #99ff99  !important;
         -webkit-transform:scale(1.05);
         -moz-transform:scale(1.05);
         transform: scale(1.05);

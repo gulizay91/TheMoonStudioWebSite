@@ -6,7 +6,7 @@
 		<!-- meta -->
 		<meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link rel="icon" href="./img/TMS-LOGO.png">
 	    <!-- css -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/ionicons.min.css">
@@ -54,7 +54,6 @@
 		        					<li><a href="#team">Ekibimiz</a></li>
 		        					<li><a href="#portfolio">Projelerimiz</a></li>
 		        					<li><a href="#price_table">Fiyatlandırma</a></li>
-		        					<li><a href="#testimonial">Testimonials</a></li>
 		        					<li><a href="#contact">İletişim</a></li>
 							    </ul>
 	    					</div>	<!-- collapse navbar-collapse -->
@@ -97,13 +96,6 @@
 							<img class="pro img-responsive center-block" src="img/3-col-icons-web.png">
 						</figure>
 						<h5 class="text-center" style="color: #ffffff"; >Web Tasarımı</h5>
-						<div class="row">
-							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f4">
-                                <div style="display: inline; width: 60px; height: 60px;">
-                                    <input type="text" class="knob" data-readonly="true" value="90" data-width="60" data-height="60" data-fgcolor="#39CCCC" readonly="readonly" style="width: 34px; height: 20px; position: absolute; vertical-align: middle; margin-top: 20px; margin-left: -47px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; /* color: rgb(57, 204, 204); */ padding: 0px; -webkit-appearance: none; background: none;">
-                                </div>
-                            </div>	<!-- col-xs-12 -->
-						</div>	<!-- row -->
 					</div>	<!-- col-md-4 -->
 
 					<div class="col-md-4 wow animated zoomIn" data-wow-delay="0.1s">
@@ -112,7 +104,7 @@
 						</figure>
 						<h5 class="text-center"style="color: #ffffff";>Android Uygulama</h5>
 						<div class="row">
-							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f4">
+							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f400">
 	                            <div style="display: inline; width: 60px; height: 60px;">
 	                            	<input type="text" class="knob" data-readonly="true" value="80" data-width="60" data-height="60" data-fgcolor="#39CCCC" readonly="readonly" style="width: 34px; height: 20px; position: absolute; vertical-align: middle; margin-top: 20px; margin-left: -47px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; /* color: rgb(57, 204, 204); */ padding: 0px; -webkit-appearance: none; background: none;">
 	                            </div>
@@ -126,7 +118,7 @@
 						</figure>
 						<h5 class="text-center"style="color: #ffffff";>iOS Uygulama</h5>
 						<div class="row">
-							<div class="col-xs-12 text-center" style="border-right: 1px solid #f4f4f4">
+							<div class="col-xs-12 text-center" style="border-right: 1px solid #77777700">
 	                            <div style="display: inline; width: 60px; height: 60px;">
 	                                <input type="text" class="knob" data-readonly="true" value="75" data-width="60" data-height="60" data-fgcolor="#39CCCC" readonly="readonly" style="width: 34px; height: 20px; position: absolute; vertical-align: middle; margin-top: 20px; margin-left: -47px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial; text-align: center; /* color: rgb(57, 204, 204); */ padding: 0px; -webkit-appearance: none; background: none;">
 	                        	</div>	
@@ -306,17 +298,17 @@
 	    		<div class="main_content">
 		    		<div class="row port">
 		    			<div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
-		    				<button type="button" class="btn btn-default is-checked btn btn-outline-primary" data-filter="*">Tümü</button>
-		    				<button type="button" class="btn btn-default" data-filter=".web">Web Tasarımı</button>
-		    				<button type="button" class="btn btn-default" data-filter=".game">Uygulama</button>
-		    				<button type="button" class="btn btn-default" data-filter=".app">Oyun</button>
+		    				<button type="button" class="btn btn-pagination btn-default is-checked btn btn-outline-primary" data-filter="*">Tümü</button>
+		    				<button type="button" class="btn btn-pagination btn-default" data-filter=".web">Web Tasarımı</button>
+		    				<button type="button" class="btn btn-pagination btn-default" data-filter=".game">Uygulama</button>
+		    				<button type="button" class="btn btn-pagination btn-default" data-filter=".app">Oyun</button>
 		    			</div>
 		    		</div>	<!-- row -->
 		    		<div class="row">
 		    			<div class="isotope" id="port-items">
 		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
 								<img class="img-responsive" src="./img/wsite1.jpg" >
-								<a href="#"class="btn btn-primary">DEMO</a>
+								<a href="#"class="btn btn-primary send-button mt-5">DEMO</a>
 		    				</div>
 		    				<div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
 		    					<img class="img-responsive" src="">
@@ -421,28 +413,28 @@
 	  								<span class="input-group-addon">
 	  									<i class="fa fa-user fa-fw"></i>
 	  								</span>
-								 	<input class="form-control" type="text" placeholder="İsim-Soy İsim" required>
+								 	<input class="form-control contact-input" type="text" placeholder="İsim-Soy İsim" required>
 								</div>
 								<div class="input-group margin-bottom-sm">
 	  								<span class="input-group-addon">
 	  									<i class="fa fa-envelope-o fa-fw"></i>
 	  								</span>
-								 	<input class="form-control" type="text" placeholder="Email adres" required>
+								 	<input class="form-control contact-input" type="text" placeholder="Email adres" required>
 								</div>
 								<div class="input-group margin-bottom-sm">
 	  								<span class="input-group-addon">
 	  									<i class="fa fa-tags fa-fw"></i>
 	  								</span>
-								 	<input class="form-control" type="text" placeholder="Konu">
+								 	<input class="form-control contact-input" type="text" placeholder="Konu">
 								</div>
 							</div>
 							<div class="input-group margin-bottom-sm">
 									<span class="input-group-addon">
 										<i class="fa fa-comment-o fa-fw"></i>
 									</span>
-								<textarea class="form-control" rows="6" type= "text" placeholder="Mesajınız" required></textarea>
+								<textarea class="form-control contact-input" rows="6" type= "text" placeholder="Mesajınız" required></textarea>
 							</div>
-							<input class="btn btn-primary send" type="submit" value="Gönder">
+							<input class="btn btn-primary send send-button" type="submit" value="Gönder">
 						</form>
 					</div>	
 				</div>
